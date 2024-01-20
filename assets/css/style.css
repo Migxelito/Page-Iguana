@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+nav {
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: #FFFFFF;
+}
+
+header {
+    background-image: url("../img/bg-header.jpg");
+    height: 55rem;
+    background-size: cover;
+}
+
+.section-desc {
+    padding: 3.5rem 0;
+    margin: 5rem 0;
+}
+
+.centrar {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.text_section-desc, .img_section-desc {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.text_section-desc {
+    width: 50%; 
+    font-size: 1.5rem;
+}
+
+.img_section-desc {
+    width: 35%;
+    padding-left: 7rem;
+}
+
+.icon-section {
+    background-color: #1E1A13;
+    padding: 3.5rem 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.centrar h2 {
+    font-size: 2.7rem;
+    margin-bottom: 5rem;
+}
+
+.centrar article{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+article, p {
+    margin-top: 1rem;
+}
+
+.img-section {
+    padding: 5rem;
+    margin: 5rem 0;
+}
+
+.centrar_img {
+    width: 30%;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.centrar_img img {
+    width: 100%;
+    height: 12.6rem;
+    margin: 0 2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem 0;
+    background-color: #1E1A13;
+}
